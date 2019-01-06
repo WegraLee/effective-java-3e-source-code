@@ -12,6 +12,7 @@ public class NyPizza extends Pizza {
 
         public Builder(Size size) {
             this.size = Objects.requireNonNull(size);
+            return this;
         }
 
         @Override public NyPizza build() {
